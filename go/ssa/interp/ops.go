@@ -12,9 +12,9 @@ import (
 	"sync"
 	"unsafe"
 
-	"code.google.com/p/go.tools/go/exact"
-	"code.google.com/p/go.tools/go/ssa"
-	"code.google.com/p/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/exact"
+	"github.com/polaris1119/go.tools/go/ssa"
+	"github.com/polaris1119/go.tools/go/types"
 )
 
 // If the target program panics, the interpreter panics with this type.

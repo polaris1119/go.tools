@@ -17,8 +17,8 @@ import (
 	"reflect"
 	"sort"
 
-	"code.google.com/p/go.tools/go/types"
-	"code.google.com/p/go.tools/go/types/typeutil"
+	"github.com/polaris1119/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/types/typeutil"
 )
 
 // relName returns the name of v relative to i.

@@ -383,15 +383,15 @@ var repoRe = regexp.MustCompile(`^code\.google\.com/p/([a-z0-9\-]+)(\.[a-z0-9\-]
 func repoURL(dashboard, hash, packagePath string) (string, error) {
 	if packagePath == "" {
 		if dashboard == "Gccgo" {
-			return "https://code.google.com/p/gofrontend/source/detail?r=" + hash, nil
+			return "https://github.com/polaris1119/gofrontend/source/detail?r=" + hash, nil
 		}
-		return "https://code.google.com/p/go/source/detail?r=" + hash, nil
+		return "https://github.com/polaris1119/go/source/detail?r=" + hash, nil
 	}
 	m := repoRe.FindStringSubmatch(packagePath)
 	if m == nil {
 		return "", errors.New("unrecognized package: " + packagePath)
 	}
-	url := "https://code.google.com/p/" + m[1] + "/source/detail?r=" + hash
+	url := "https://github.com/polaris1119/" + m[1] + "/source/detail?r=" + hash
 	if len(m) > 2 {
 		url += "&repo=" + m[2][1:]
 	}

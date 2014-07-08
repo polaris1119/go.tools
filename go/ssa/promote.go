@@ -26,7 +26,7 @@ package ssa
 import (
 	"fmt"
 
-	"code.google.com/p/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/types"
 )
 
 // Method returns the Function implementing method meth, building

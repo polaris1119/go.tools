@@ -12,12 +12,12 @@ import (
 	"os"
 	"strings"
 
-	"code.google.com/p/go.tools/astutil"
-	"code.google.com/p/go.tools/go/exact"
-	"code.google.com/p/go.tools/go/loader"
-	"code.google.com/p/go.tools/go/types"
-	"code.google.com/p/go.tools/go/types/typeutil"
-	"code.google.com/p/go.tools/oracle/serial"
+	"github.com/polaris1119/go.tools/astutil"
+	"github.com/polaris1119/go.tools/go/exact"
+	"github.com/polaris1119/go.tools/go/loader"
+	"github.com/polaris1119/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/types/typeutil"
+	"github.com/polaris1119/go.tools/oracle/serial"
 )
 
 // describe describes the syntax node denoted by the query position,

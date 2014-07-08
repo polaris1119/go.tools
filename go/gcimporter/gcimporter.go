@@ -19,8 +19,8 @@ import (
 	"strings"
 	"text/scanner"
 
-	"code.google.com/p/go.tools/go/exact"
-	"code.google.com/p/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/exact"
+	"github.com/polaris1119/go.tools/go/types"
 )
 
 // debugging/development support

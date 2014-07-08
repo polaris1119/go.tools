@@ -15,9 +15,9 @@ import (
 	"fmt"
 	"go/token"
 
-	"code.google.com/p/go.tools/go/pointer"
-	"code.google.com/p/go.tools/go/ssa"
-	"code.google.com/p/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/pointer"
+	"github.com/polaris1119/go.tools/go/ssa"
+	"github.com/polaris1119/go.tools/go/types"
 )
 
 func (a *analysis) doChannelPeers(ptsets map[ssa.Value]pointer.Pointer) {

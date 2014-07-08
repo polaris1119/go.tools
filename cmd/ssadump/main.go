@@ -13,10 +13,10 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"code.google.com/p/go.tools/go/loader"
-	"code.google.com/p/go.tools/go/ssa"
-	"code.google.com/p/go.tools/go/ssa/interp"
-	"code.google.com/p/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/loader"
+	"github.com/polaris1119/go.tools/go/ssa"
+	"github.com/polaris1119/go.tools/go/ssa/interp"
+	"github.com/polaris1119/go.tools/go/types"
 )
 
 var buildFlag = flag.String("build", "", `Options controlling the SSA builder.

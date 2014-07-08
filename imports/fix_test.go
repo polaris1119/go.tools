@@ -406,7 +406,7 @@ import (
 	"fmt"
 	"net"
 
-	"code.google.com/p/snappy-go/snappy"
+	"github.com/polaris1119/snappy-go/snappy"
 )
 
 func f() {
@@ -423,7 +423,7 @@ func f() {
 		in: `package foo
 
 import (
-	"code.google.com/p/snappy-go/snappy"
+	"github.com/polaris1119/snappy-go/snappy"
 	"fmt"
 	"net"
 )
@@ -440,7 +440,7 @@ import (
 	"fmt"
 	"net"
 
-	"code.google.com/p/snappy-go/snappy"
+	"github.com/polaris1119/snappy-go/snappy"
 )
 
 func f() {
@@ -629,7 +629,7 @@ func TestFixImports(t *testing.T) {
 		"user":      "appengine/user",
 		"zip":       "archive/zip",
 		"bytes":     "bytes",
-		"snappy":    "code.google.com/p/snappy-go/snappy",
+		"snappy":    "github.com/polaris1119/snappy-go/snappy",
 		"str":       "strings",
 	}
 	findImport = func(pkgName string, symbols map[string]bool) (string, bool, error) {

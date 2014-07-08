@@ -13,7 +13,7 @@ import (
 	"strings"
 	"unicode"
 
-	"code.google.com/p/go.tools/go/exact"
+	"github.com/polaris1119/go.tools/go/exact"
 )
 
 // A declInfo describes a package-level const, type, var, or func declaration.
@@ -120,7 +120,7 @@ func (check *Checker) collectObjects() {
 	importer := check.conf.Import
 	if importer == nil {
 		if DefaultImport == nil {
-			panic(`no Config.Import or DefaultImport (missing import _ "code.google.com/p/go.tools/go/gcimporter"?)`)
+			panic(`no Config.Import or DefaultImport (missing import _ "github.com/polaris1119/go.tools/go/gcimporter"?)`)
 		}
 		importer = DefaultImport
 	}

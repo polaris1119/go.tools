@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"go/ast"
 
-	"code.google.com/p/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/types"
 )
 
 func init() {

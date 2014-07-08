@@ -158,7 +158,7 @@ var clURL = regexp.MustCompile(`https://codereview.appspot.com/([0-9]+)`)
 // lookupCL consults code.google.com for the full change description for the
 // provided Commit, and returns the relevant CL number.
 func lookupCL(c appengine.Context, com *Commit) (string, error) {
-	url := "https://code.google.com/p/go/source/detail?r=" + com.Hash
+	url := "https://github.com/polaris1119/go/source/detail?r=" + com.Hash
 	r, err := urlfetch.Client(c).Get(url)
 	if err != nil {
 		return "", err

@@ -19,10 +19,10 @@ func TestRepoRootForImportPath(t *testing.T) {
 		want *RepoRoot
 	}{
 		{
-			"code.google.com/p/go",
+			"github.com/polaris1119/go",
 			&RepoRoot{
 				VCS:  vcsHg,
-				Repo: "https://code.google.com/p/go",
+				Repo: "https://github.com/polaris1119/go",
 			},
 		},
 		{

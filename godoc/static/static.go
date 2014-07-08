@@ -287,7 +287,7 @@ var Files = map[string]string{
   If the files change underneath the running server, the displayed
   markup is misaligned.</br>
 
-  <span class='err'>⚠</span> Additional issues are listed at <a href='https://code.google.com/p/go/source/browse/godoc/analysis/README?repo=tools'>go.tools/godoc/analysis/README</a>.</br>
+  <span class='err'>⚠</span> Additional issues are listed at <a href='https://github.com/polaris1119/go/source/browse/godoc/analysis/README?repo=tools'>go.tools/godoc/analysis/README</a>.</br>
 </p>
 `,
 

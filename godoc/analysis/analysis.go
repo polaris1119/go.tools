@@ -57,11 +57,11 @@ import (
 	"strings"
 	"sync"
 
-	"code.google.com/p/go.tools/go/loader"
-	"code.google.com/p/go.tools/go/pointer"
-	"code.google.com/p/go.tools/go/ssa"
-	"code.google.com/p/go.tools/go/ssa/ssautil"
-	"code.google.com/p/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/loader"
+	"github.com/polaris1119/go.tools/go/pointer"
+	"github.com/polaris1119/go.tools/go/ssa"
+	"github.com/polaris1119/go.tools/go/ssa/ssautil"
+	"github.com/polaris1119/go.tools/go/types"
 )
 
 // -- links ------------------------------------------------------------
@@ -329,7 +329,7 @@ func Run(pta bool, result *Result) {
 	}
 
 	// Uncomment to make startup quicker during debugging.
-	//args = []string{"code.google.com/p/go.tools/cmd/godoc"}
+	//args = []string{"github.com/polaris1119/go.tools/cmd/godoc"}
 	//args = []string{"fmt"}
 
 	if _, err := conf.FromArgs(args, true); err != nil {

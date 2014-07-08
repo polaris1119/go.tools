@@ -27,9 +27,9 @@ import (
 	"text/template"
 	"time"
 
-	"code.google.com/p/go.tools/godoc/analysis"
-	"code.google.com/p/go.tools/godoc/util"
-	"code.google.com/p/go.tools/godoc/vfs"
+	"github.com/polaris1119/go.tools/godoc/analysis"
+	"github.com/polaris1119/go.tools/godoc/util"
+	"github.com/polaris1119/go.tools/godoc/vfs"
 )
 
 // handlerServer is a migration from an old godoc http Handler type.

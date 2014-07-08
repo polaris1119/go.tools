@@ -44,18 +44,18 @@ import (
 	"runtime"
 	"strings"
 
-	"code.google.com/p/go.tools/godoc"
-	"code.google.com/p/go.tools/godoc/analysis"
-	"code.google.com/p/go.tools/godoc/static"
-	"code.google.com/p/go.tools/godoc/vfs"
-	"code.google.com/p/go.tools/godoc/vfs/gatefs"
-	"code.google.com/p/go.tools/godoc/vfs/mapfs"
-	"code.google.com/p/go.tools/godoc/vfs/zipfs"
+	"github.com/polaris1119/go.tools/godoc"
+	"github.com/polaris1119/go.tools/godoc/analysis"
+	"github.com/polaris1119/go.tools/godoc/static"
+	"github.com/polaris1119/go.tools/godoc/vfs"
+	"github.com/polaris1119/go.tools/godoc/vfs/gatefs"
+	"github.com/polaris1119/go.tools/godoc/vfs/mapfs"
+	"github.com/polaris1119/go.tools/godoc/vfs/zipfs"
 )
 
 const (
 	defaultAddr = ":6060" // default webserver address
-	toolsPath   = "code.google.com/p/go.tools/cmd/"
+	toolsPath   = "github.com/polaris1119/go.tools/cmd/"
 )
 
 var (

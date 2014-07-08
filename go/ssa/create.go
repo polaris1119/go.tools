@@ -12,8 +12,8 @@ import (
 	"go/token"
 	"os"
 
-	"code.google.com/p/go.tools/go/loader"
-	"code.google.com/p/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/loader"
+	"github.com/polaris1119/go.tools/go/types"
 )
 
 // BuilderMode is a bitmask of options for diagnostics and checking.

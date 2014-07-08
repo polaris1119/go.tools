@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"code.google.com/p/go.tools/go/loader"
+	"github.com/polaris1119/go.tools/go/loader"
 )
 
 func loadFromArgs(args []string) (prog *loader.Program, rest []string, err error) {

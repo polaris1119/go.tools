@@ -1,7 +1,7 @@
 package main
 
 // Regression test for oracle crash
-// https://code.google.com/p/go/issues/detail?id=6605
+// https://github.com/polaris1119/go/issues/detail?id=6605
 //
 // Using reflection, methods may be called on types that are not the
 // operand of any ssa.MakeInterface instruction.  In this example,

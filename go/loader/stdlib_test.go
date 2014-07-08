@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"code.google.com/p/go.tools/go/loader"
-	"code.google.com/p/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/loader"
+	"github.com/polaris1119/go.tools/go/types"
 )
 
 func allPackages() []string {

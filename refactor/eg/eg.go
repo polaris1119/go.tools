@@ -1,5 +1,5 @@
 // Package eg implements the example-based refactoring tool whose
-// command-line is defined in code.google.com/p/go.tools/cmd/eg.
+// command-line is defined in github.com/polaris1119/go.tools/cmd/eg.
 package eg
 
 import (
@@ -10,8 +10,8 @@ import (
 	"go/token"
 	"os"
 
-	"code.google.com/p/go.tools/go/loader"
-	"code.google.com/p/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/loader"
+	"github.com/polaris1119/go.tools/go/types"
 )
 
 const Help = `

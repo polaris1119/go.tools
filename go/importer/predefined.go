@@ -4,7 +4,7 @@
 
 package importer
 
-import "code.google.com/p/go.tools/go/types"
+import "github.com/polaris1119/go.tools/go/types"
 
 const (
 	magic   = "\n$$ exports $$\n"

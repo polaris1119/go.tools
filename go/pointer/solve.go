@@ -10,7 +10,7 @@ package pointer
 import (
 	"fmt"
 
-	"code.google.com/p/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/types"
 )
 
 type solverState struct {

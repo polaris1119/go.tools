@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	_ "code.google.com/p/go.tools/go/gcimporter"
-	. "code.google.com/p/go.tools/go/types"
+	_ "github.com/polaris1119/go.tools/go/gcimporter"
+	. "github.com/polaris1119/go.tools/go/types"
 )
 
 var benchmark = flag.Bool("b", false, "run benchmarks")

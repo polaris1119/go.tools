@@ -17,9 +17,9 @@ import (
 	"net/http"
 	"text/template"
 
-	"code.google.com/p/go.tools/godoc"
-	"code.google.com/p/go.tools/godoc/redirect"
-	"code.google.com/p/go.tools/godoc/vfs"
+	"github.com/polaris1119/go.tools/godoc"
+	"github.com/polaris1119/go.tools/godoc/redirect"
+	"github.com/polaris1119/go.tools/godoc/vfs"
 )
 
 var (

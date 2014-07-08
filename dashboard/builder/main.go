@@ -19,13 +19,13 @@ import (
 	"strings"
 	"time"
 
-	"code.google.com/p/go.tools/go/vcs"
+	"github.com/polaris1119/go.tools/go/vcs"
 )
 
 const (
 	codeProject          = "go"
 	codePyScript         = "misc/dashboard/googlecode_upload.py"
-	gofrontendImportPath = "code.google.com/p/gofrontend"
+	gofrontendImportPath = "github.com/polaris1119/gofrontend"
 	mkdirPerm            = 0750
 	waitInterval         = 30 * time.Second // time to wait before checking for new revs
 	pkgBuildInterval     = 24 * time.Hour   // rebuild packages every 24 hours
@@ -50,9 +50,9 @@ var (
 	buildRevision  = flag.String("rev", "", "Build specified revision and exit")
 	buildCmd       = flag.String("cmd", filepath.Join(".", allCmd), "Build command (specify relative to go/src/)")
 	buildTool      = flag.String("tool", "go", "Tool to build.")
-	gcPath         = flag.String("gcpath", "code.google.com/p/go", "Path to download gc from")
+	gcPath         = flag.String("gcpath", "github.com/polaris1119/go", "Path to download gc from")
 	gccPath        = flag.String("gccpath", "https://github.com/mirrors/gcc.git", "Path to download gcc from")
-	benchPath      = flag.String("benchpath", "code.google.com/p/go.benchmarks/bench", "Path to download benchmarks from")
+	benchPath      = flag.String("benchpath", "github.com/polaris1119/go.benchmarks/bench", "Path to download benchmarks from")
 	failAll        = flag.Bool("fail", false, "fail all builds")
 	parallel       = flag.Bool("parallel", false, "Build multiple targets in parallel")
 	buildTimeout   = flag.Duration("buildTimeout", 60*time.Minute, "Maximum time to wait for builds and tests")

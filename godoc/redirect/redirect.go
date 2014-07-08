@@ -82,13 +82,13 @@ var cmdRedirects = map[string]string{
 var redirects = map[string]string{
 	"/blog":       "/blog/",
 	"/build":      "http://build.golang.org",
-	"/change":     "https://code.google.com/p/go/source/list",
+	"/change":     "https://github.com/polaris1119/go/source/list",
 	"/cl":         "https://gocodereview.appspot.com/",
-	"/cmd/godoc/": "http://godoc.org/code.google.com/p/go.tools/cmd/godoc/",
-	"/cmd/vet/":   "http://godoc.org/code.google.com/p/go.tools/cmd/vet/",
-	"/issue":      "https://code.google.com/p/go/issues",
-	"/issue/new":  "https://code.google.com/p/go/issues/entry",
-	"/issues":     "https://code.google.com/p/go/issues",
+	"/cmd/godoc/": "http://godoc.org/github.com/polaris1119/go.tools/cmd/godoc/",
+	"/cmd/vet/":   "http://godoc.org/github.com/polaris1119/go.tools/cmd/vet/",
+	"/issue":      "https://github.com/polaris1119/go/issues",
+	"/issue/new":  "https://github.com/polaris1119/go/issues/entry",
+	"/issues":     "https://github.com/polaris1119/go/issues",
 	"/play":       "http://play.golang.org",
 
 	// In Go 1.2 the references page is part of /doc/.
@@ -103,7 +103,7 @@ var redirects = map[string]string{
 
 	"/talks": "http://talks.golang.org",
 	"/tour":  "http://tour.golang.org",
-	"/wiki":  "https://code.google.com/p/go-wiki/w/list",
+	"/wiki":  "https://github.com/polaris1119/go-wiki/w/list",
 
 	"/doc/articles/c_go_cgo.html":                    "/blog/c-go-cgo",
 	"/doc/articles/concurrency_patterns.html":        "/blog/go-concurrency-patterns-timing-out-and",
@@ -118,17 +118,17 @@ var redirects = map[string]string{
 	"/doc/articles/json_rpc_tale_of_interfaces.html": "/blog/json-rpc-tale-of-interfaces",
 	"/doc/articles/laws_of_reflection.html":          "/blog/laws-of-reflection",
 	"/doc/articles/slices_usage_and_internals.html":  "/blog/go-slices-usage-and-internals",
-	"/doc/go_for_cpp_programmers.html":               "https://code.google.com/p/go-wiki/wiki/GoForCPPProgrammers",
+	"/doc/go_for_cpp_programmers.html":               "https://github.com/polaris1119/go-wiki/wiki/GoForCPPProgrammers",
 	"/doc/go_tutorial.html":                          "http://tour.golang.org/",
 }
 
 var prefixHelpers = map[string]string{
-	"change": "https://code.google.com/p/go/source/detail?r=",
+	"change": "https://github.com/polaris1119/go/source/detail?r=",
 	"cl":     "https://codereview.appspot.com/",
-	"issue":  "https://code.google.com/p/go/issues/detail?id=",
+	"issue":  "https://github.com/polaris1119/go/issues/detail?id=",
 	"play":   "http://play.golang.org/",
 	"talks":  "http://talks.golang.org/",
-	"wiki":   "https://code.google.com/p/go-wiki/wiki/",
+	"wiki":   "https://github.com/polaris1119/go-wiki/wiki/",
 }
 
 func Handler(target string) http.Handler {

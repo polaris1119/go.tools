@@ -214,7 +214,7 @@ func perfGraphHandler(w http.ResponseWriter, r *http.Request) {
 							}
 							valf[i] = f
 							com := commits2[i]
-							comLink := "https://code.google.com/p/go/source/detail?r=" + com.Hash
+							comLink := "https://github.com/polaris1119/go/source/detail?r=" + com.Hash
 							if cert[i] {
 								d := ""
 								if lastval0 != 0 {

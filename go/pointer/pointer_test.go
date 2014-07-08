@@ -21,13 +21,13 @@ import (
 	"strings"
 	"testing"
 
-	"code.google.com/p/go.tools/go/callgraph"
-	"code.google.com/p/go.tools/go/loader"
-	"code.google.com/p/go.tools/go/pointer"
-	"code.google.com/p/go.tools/go/ssa"
-	"code.google.com/p/go.tools/go/ssa/ssautil"
-	"code.google.com/p/go.tools/go/types"
-	"code.google.com/p/go.tools/go/types/typeutil"
+	"github.com/polaris1119/go.tools/go/callgraph"
+	"github.com/polaris1119/go.tools/go/loader"
+	"github.com/polaris1119/go.tools/go/pointer"
+	"github.com/polaris1119/go.tools/go/ssa"
+	"github.com/polaris1119/go.tools/go/ssa/ssautil"
+	"github.com/polaris1119/go.tools/go/types"
+	"github.com/polaris1119/go.tools/go/types/typeutil"
 )
 
 var inputs = []string{

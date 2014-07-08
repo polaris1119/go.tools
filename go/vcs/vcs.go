@@ -667,7 +667,7 @@ func googleCodeVCS(match map[string]string) error {
 	if err := noVCSSuffix(match); err != nil {
 		return err
 	}
-	data, err := httpGET(expand(match, "https://code.google.com/p/{project}/source/checkout?repo={subrepo}"))
+	data, err := httpGET(expand(match, "https://github.com/polaris1119/{project}/source/checkout?repo={subrepo}"))
 	if err != nil {
 		return err
 	}
@@ -694,7 +694,7 @@ func googleCodeVCS(match map[string]string) error {
 // It prints an error giving the equivalent new path.
 func oldGoogleCode(match map[string]string) error {
 	return fmt.Errorf("invalid Google Code import path: use %s instead",
-		expand(match, "code.google.com/p/{project}{path}"))
+		expand(match, "github.com/polaris1119/{project}{path}"))
 }
 
 // bitbucketVCS determines the version control system for a

@@ -42,7 +42,7 @@ package callgraph
 import (
 	"fmt"
 
-	"code.google.com/p/go.tools/go/ssa"
+	"github.com/polaris1119/go.tools/go/ssa"
 )
 
 // A Graph represents a call graph.

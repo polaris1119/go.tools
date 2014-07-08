@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"code.google.com/p/go.tools/go/loader"
-	"code.google.com/p/go.tools/go/ssa"
-	"code.google.com/p/go.tools/go/ssa/ssautil"
+	"github.com/polaris1119/go.tools/go/loader"
+	"github.com/polaris1119/go.tools/go/ssa"
+	"github.com/polaris1119/go.tools/go/ssa/ssautil"
 )
 
 func TestSwitches(t *testing.T) {

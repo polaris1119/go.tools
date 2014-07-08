@@ -1,5 +1,5 @@
 // Tests of call chaining f(g()) when g has multiple return values (MRVs).
-// See https://code.google.com/p/go/issues/detail?id=4573.
+// See https://github.com/polaris1119/go/issues/detail?id=4573.
 
 package main
 
